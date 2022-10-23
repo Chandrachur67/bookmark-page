@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: auto;
+}
+
+main {
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+nav p {
+    padding: 5px 20px;
+}
+
+h1, h2, h3 {
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+
+p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+
+button {
+    display: inline-block;
+    padding: 15px;
+    background-color: hsl(231, 69%, 60%);
+    color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(231, 69%, 60%);
+    color: whitesmoke;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 120px 40px 120px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .navbar {
+    width: 100%;
+    background-color: hsl(229, 31%, 21%);
+}
+
+.hor-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    margin: 50px 0;
+}
+
+.content, .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ver-article {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.download-tokens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    margin: 40px 0;
+}
+
+.token {
+    width: 250px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px hsl(229, 8%, 60%), -2px 2px 5px rgb(121, 135, 153);
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+.redd {
+    padding: 10px 20px;
+    background-color: hsl(0, 94%, 66%);
+}
+
